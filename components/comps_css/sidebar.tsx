@@ -8,12 +8,30 @@ export function DashSidebar(){
                 <span>LEKH</span>
             </div>
             <div className="links">
-                <Link href='/dashboard/notes'>
-                    <div className="link">
+                <div className="link">
+                    <Link href='/dashboard/notes'>
                         <Notebook/>
                         <span>Notes</span>
-                    </div>
-                </Link>
+                    </Link>
+                </div>
+                <div className="link">
+                    <Link href='/dashboard/zenmode'>
+                        <Text/>
+                        <span>Zen Mode</span>
+                    </Link>
+                </div>
+                <div className="link">
+                    <Link href='/dashboard/notexai'>
+                        <Bot/>
+                        <span>Lekh AI</span>
+                    </Link>
+                </div>
+                <div className="link">
+                    <Link href='/dashboard/settings'>
+                        <Settings/>
+                        <span>Settings</span>
+                    </Link>
+                </div>
             </div>
             <div className="profile"></div>
         </div>
