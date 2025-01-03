@@ -71,3 +71,25 @@ li{
     flex-direction: row;
     align-items: center;
 }
+
+@media only screen and (max-width: 1100px){
+    .link span{
+        display: none;
+    }
+    .icon{
+        font-size: 150%;
+    }
+}
+
+
+@media only screen and (min-width: 1100px){
+    .link span{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1313px){
+    .link span{
+        font-size: 16px;
+    }
+}

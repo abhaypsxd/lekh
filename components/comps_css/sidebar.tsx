@@ -10,8 +10,8 @@ const SidebarLinks = [
     {id:1, icon: HomeIcon, name: 'Home', path:'/dashboard'},
     {id:2, icon: Notebook, name: 'Notes', path:'/dashboard/notes'},
     {id:3, icon: Search, name: 'Search', path:'/dashboard/search'},
-    {id:4, icon: Text, name: 'Zen Mode', path:'/dashboard/zenmode'},
-    {id:5, icon: Bot, name: 'Lekh AI', path:'/dashboard/notexai'},
+    {id:4, icon: Text, name: 'Zen', path:'/dashboard/zenmode'},
+    {id:5, icon: Bot, name: 'LekhAI', path:'/dashboard/notexai'},
     {id:6, icon: Bookmark, name: 'Bookmarks', path:'/dashboard/bookmarks'},
     {id:7, icon: Settings, name: 'Settings', path:'/dashboard/settings'},
 ];
